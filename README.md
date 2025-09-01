@@ -1,0 +1,1 @@
+This is the file where we can see the fastapi from scratch like why we need fastapi and how far we can go with fastapi all these things not only java or any .net we can also develop a scalable things with python using fastapi this is the goal of mine in this file
