@@ -3,12 +3,12 @@ from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from jose import JWTError, jwt
 from passlib.context import CryptContext
 from datetime import datetime, timedelta
-from fastapi.middleware.cors import CORSMiddleware   # 👈 import this
+from fastapi.middleware.cors import CORSMiddleware   # import this
 
 # App init
 app = FastAPI()
 
-# 👇 Add CORS middleware immediately after app = FastAPI()
+# Add CORS middleware immediately after app = FastAPI()
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],  # in production, restrict to ["http://127.0.0.1:5500"]
